@@ -3,6 +3,8 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view>
 			<text class="title">{{title}}</text>
+      <br>
+			<text class="title">{{$t('index.demo')}}</text>
 		</view>
 	</view>
 </template>

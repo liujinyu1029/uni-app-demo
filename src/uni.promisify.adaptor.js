@@ -1,5 +1,6 @@
 uni.addInterceptor({
-  returnValue (res) {
+  returnValue(res) {
+    console.log(11111,res)
     if (!(!!res && (typeof res === "object" || typeof res === "function") && typeof res.then === "function")) {
       return res;
     }
